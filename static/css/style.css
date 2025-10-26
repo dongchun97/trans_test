@@ -20,12 +20,16 @@ body {
     background-color: var(--light-color);
     color: var(--dark-color);
     line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    flex: 1;
 }
 
 header {
@@ -114,6 +118,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {
@@ -238,6 +243,13 @@ h1 {
     background-color: #ffeaea;
     border-radius: 8px;
     margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: var(--secondary-color);
+    border-top: 1px solid #e0e0e0;
 }
 
 .hidden {

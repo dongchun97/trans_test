@@ -1,8 +1,15 @@
 word_analyzer/
-├── index.html          # 主页面
-├── data/
-│   ├── words.json      # 单词数据
-│   ├── roots.json      # 词根数据
-│   └── prefixes.json   # 词缀数据
-└── js/
-    └── app.js          # 应用逻辑
+├── main.py                 # FastAPI主程序
+├── models.py               # 数据模型
+├── data_loader.py          # 数据加载器
+├── requirements.txt        # 依赖包
+├── static/                 # 静态文件
+│   ├── index.html
+│   ├── css/
+│   │   └── style.css
+│   └── js/
+│       └── app.js
+└── data/
+    ├── words.json
+    ├── roots.json
+    └── prefixes.json
