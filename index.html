@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>单词翻译与分析工具</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>单词翻译与分析工具</h1>
+            <p>输入英文单词，获取中文翻译、词根词缀分析和相似词对比</p>
+        </header>
+        
+        <section class="search-section">
+            <form class="search-form" id="search-form">
+                <input type="text" class="search-input" id="word-input" placeholder="请输入英文单词..." required>
+                <button type="submit" class="search-btn">查询</button>
+            </form>
+            <div class="suggestions" id="suggestions"></div>
+        </section>
+        
+        <section class="results-section">
+            <div class="card">
+                <h2>翻译结果</h2>
+                <div id="translation-result" class="translation-result">请输入单词查询</div>
+                <div id="phonetic" class="phonetic"></div>
+                <div id="word-class" class="word-class"></div>
+                <ul id="meaning-list" class="meaning-list"></ul>
+            </div>
+            
+            <div class="card">
+                <h2>词根词缀分析</h2>
+                <div id="affix-analysis" class="affix-analysis">
+                    <p>请输入单词查询以获取词根词缀分析</p>
+                </div>
+                
+                <h2>同词缀单词举例</h2>
+                <div id="affix-examples">
+                    <p>请输入单词查询以获取同词缀单词举例</p>
+                </div>
+            </div>
+            
+            <div class="card full-width">
+                <h2>单词辨析</h2>
+                <div id="word-comparison" class="comparison-section">
+                    <p>请输入单词查询以获取相似词对比</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

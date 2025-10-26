@@ -1,0 +1,8 @@
+word_analyzer/
+├── index.html          # 主页面
+├── data/
+│   ├── words.json      # 单词数据
+│   ├── roots.json      # 词根数据
+│   └── prefixes.json   # 词缀数据
+└── js/
+    └── app.js          # 应用逻辑

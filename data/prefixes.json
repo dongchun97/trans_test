@@ -1,0 +1,14 @@
+{
+    "un-": {
+      "meaning": "表示否定，不",
+      "examples": ["unhappy", "unable", "unlock", "uncover", "unfold"]
+    },
+    "trans-": {
+      "meaning": "表示横跨，转移",
+      "examples": ["transform", "transmit", "transcribe", "transcend", "transparent"]
+    },
+    "mis-": {
+      "meaning": "表示错误，不当",
+      "examples": ["mislead", "mistake", "misplace", "misbehave", "miscalculate"]
+    }
+  }

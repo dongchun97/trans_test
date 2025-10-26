@@ -1,0 +1,73 @@
+{
+  "unbelievable": {
+    "translation": "难以置信的",
+    "phonetic": "/ˌʌnbɪˈliːvəbl/",
+    "wordClass": "形容词",
+    "meanings": [
+      "难以置信的，不可思议的",
+      "惊人的，极好的"
+    ],
+    "affixAnalysis": [
+      {
+        "type": "前缀",
+        "part": "un-",
+        "meaning": "表示否定，不"
+      },
+      {
+        "type": "词根",
+        "part": "believe",
+        "meaning": "相信"
+      },
+      {
+        "type": "后缀",
+        "part": "-able",
+        "meaning": "表示能够...的，可...的"
+      }
+    ],
+    "similarWords": [
+      {
+        "word": "incredible",
+        "translation": "难以置信的",
+        "difference": "unbelievable 更强调因超出预期而难以相信，incredible 更强调因非凡而难以相信"
+      },
+      {
+        "word": "astonishing",
+        "translation": "令人惊讶的",
+        "difference": "unbelievable 强调难以相信，astonishing 强调令人惊讶"
+      }
+    ]
+  },
+  "transportation": {
+    "translation": "运输，交通工具",
+    "phonetic": "/ˌtrænspɔːrˈteɪʃn/",
+    "wordClass": "名词",
+    "meanings": [
+      "运输，运送",
+      "交通工具，运输系统"
+    ],
+    "affixAnalysis": [
+      {
+        "type": "前缀",
+        "part": "trans-",
+        "meaning": "表示横跨，转移"
+      },
+      {
+        "type": "词根",
+        "part": "port",
+        "meaning": "携带，运载"
+      },
+      {
+        "type": "后缀",
+        "part": "-ation",
+        "meaning": "表示行为，过程或结果"
+      }
+    ],
+    "similarWords": [
+      {
+        "word": "transit",
+        "translation": "运输，经过",
+        "difference": "transportation 强调运输系统或工具，transit 强调通过或经过的过程"
+      }
+    ]
+  }
+}
